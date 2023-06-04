@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <article class="container">
+        <div id="hide" class="header-one-container">
+            <header class="header-one">     <!--The header for the close menu!!! The header for the close menu!!!-->
+                <button id="showButton" onclick="change()" class="menu-button-close">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </button>
+                <div class="logo-container">                  <!--A helper div to hold the logo as a link-->
+                    <a class="logo-link-container">
+                        <img src="images/QUIX-logos_transparent(1).png">
+                    </a>
+                </div>
+            </header>
+            <div class="links-container">                    <!--PLACE ALL THE LINKS HERE TO POSITION THEM AWAY FROM THE TOP-->
+                <div class="links">
+                    <a>Courses</a>
+                    <span class="material-symbols-outlined">
+                        navigate_next
+                    </span>
+                </div>
+                <div class="links">
+                    <a>Resources</a>
+                    <span class="material-symbols-outlined">
+                        navigate_next
+                    </span>
+                </div>
+                <div class="links">
+                    <a>FAQs</a>
+                    <span class="material-symbols-outlined">
+                        navigate_next
+                    </span>
+                </div>
+            </div>
+        </div>
+        <header id="show" class="header-two">   <!--The header for the main screen!!! The header for the main screen!!! -->
+            <button id="hideButton" onclick="disappear()" class="menu-button">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div class="logo-container">                  <!--A helper div to hold the logo as a link-->
+                <a class="logo-link-container">
+                    <img src="images/QUIX-logos_transparent(1).png">
+                </a>
+            </div>
+        </header>
+        <main class="main">
+
+        </main>
+    </article>
+</body>
+</html>

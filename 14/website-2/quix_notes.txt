@@ -1,0 +1,8 @@
+width: 852px
+height: 156px
+
+logo color : #5065A8;
+logo background color : #F2EEE4;
+
+banner width: 2460px
+banner height: 1639px;
